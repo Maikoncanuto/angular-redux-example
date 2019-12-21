@@ -1,9 +1,9 @@
 import { Routes, RouterModule } from '@angular/router';
-import { ViewComponent } from './components/view/view.component';
 import { NgModule } from '@angular/core';
+import { ContainerUsuarioComponent } from './containers/container-usuario/container-usuario/container-usuario.component';
 
 const ROUTES: Routes = [
-    { path: '', component: ViewComponent }
+    { path: '', component: ContainerUsuarioComponent }
 ];
 
 @NgModule({
